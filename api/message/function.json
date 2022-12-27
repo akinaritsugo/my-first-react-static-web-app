@@ -6,9 +6,14 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "get",
-        "post"
+        "get"
       ]
+    },
+    {
+      "type": "table",
+      "direction": "in",
+      "name": "messages",
+      "tableName": "Messages"
     },
     {
       "type": "http",
