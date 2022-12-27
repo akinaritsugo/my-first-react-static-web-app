@@ -15,7 +15,12 @@ function App() {
     })();
   }, []);
 
-  return <div>{data}</div>;
+  return (
+    <div>
+      <h1>Static Web Apps Demo</h1>
+      <div>{data}</div>
+    </div>
+  );
 }
 
 export default App;
